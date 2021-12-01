@@ -1,0 +1,240 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    4b890522-32b2-408c-b269-5e924e9ff3ae:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 215
+        'y': 111
+      z: 0
+      embeds: []
+    6c336d5d-e88d-4de3-a953-33ad24b1f3f4:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 340
+        'y': 20
+      z: 0
+      embeds: []
+      dependson:
+        - 4b890522-32b2-408c-b269-5e924e9ff3ae
+    fbb6fac9-697c-419e-b1d7-c9a4b5e4c270:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 330
+        'y': 180
+      z: 0
+      embeds: []
+      dependson:
+        - 4b890522-32b2-408c-b269-5e924e9ff3ae
+    cce9a456-5992-4455-9059-34492a95a789:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 460
+        'y': 20
+      z: 0
+      embeds: []
+      dependson:
+        - 4b890522-32b2-408c-b269-5e924e9ff3ae
+    149291aa-c398-406d-a93e-6882001e7b82:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 460
+        'y': 170
+      z: 0
+      embeds: []
+      dependson:
+        - 4b890522-32b2-408c-b269-5e924e9ff3ae
+    9784401a-d637-4d23-b5f2-60dd64c5e174:
+      source:
+        id: 6c336d5d-e88d-4de3-a953-33ad24b1f3f4
+        selector: 'g:nth-child(1) g:nth-child(4) g:nth-child(1) circle:nth-child(1)     '
+        port: 'AWS::DependencyLink-*'
+      target:
+        id: 4b890522-32b2-408c-b269-5e924e9ff3ae
+      z: 2
+    7516ee00-74a9-4965-a6ea-d5b38d56bc5d:
+      source:
+        id: 6c336d5d-e88d-4de3-a953-33ad24b1f3f4
+        selector: 'g:nth-child(1) g:nth-child(4) g:nth-child(1) circle:nth-child(1)     '
+        port: 'AWS::DependencyLink-*'
+      target:
+        id: 4b890522-32b2-408c-b269-5e924e9ff3ae
+      z: 2
+    3232e1d2-2069-4013-bd71-3481387dc86f:
+      source:
+        id: fbb6fac9-697c-419e-b1d7-c9a4b5e4c270
+        selector: 'g:nth-child(1) g:nth-child(4) g:nth-child(1) circle:nth-child(1)     '
+        port: 'AWS::DependencyLink-*'
+      target:
+        id: 4b890522-32b2-408c-b269-5e924e9ff3ae
+      z: 2
+    c00bcf65-817c-42c2-b0e9-f48263717648:
+      source:
+        id: fbb6fac9-697c-419e-b1d7-c9a4b5e4c270
+        selector: 'g:nth-child(1) g:nth-child(4) g:nth-child(1) circle:nth-child(1)     '
+        port: 'AWS::DependencyLink-*'
+      target:
+        id: 4b890522-32b2-408c-b269-5e924e9ff3ae
+      z: 2
+    6fed5cc0-3246-425d-b40b-6ea5d99115ca:
+      source:
+        id: fbb6fac9-697c-419e-b1d7-c9a4b5e4c270
+        selector: 'g:nth-child(1) g:nth-child(4) g:nth-child(1) circle:nth-child(1)     '
+        port: 'AWS::DependencyLink-*'
+      target:
+        id: 4b890522-32b2-408c-b269-5e924e9ff3ae
+      z: 2
+    0d46a91a-e6fa-4831-ba59-f17d6439f369:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 570
+        'y': 20
+      z: 0
+      embeds: []
+      dependson:
+        - 4b890522-32b2-408c-b269-5e924e9ff3ae
+    0149d15a-6fa7-49af-98b7-9b6bdc80900e:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 577
+        'y': 171
+      z: 0
+      embeds: []
+    a869f7fc-8ae1-4860-aeb5-2ca1633e8bb5:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 679
+        'y': 23
+      z: 0
+      embeds: []
+      dependson:
+        - 4b890522-32b2-408c-b269-5e924e9ff3ae
+    4cf72e21-0c49-4a1d-95f2-2a44e8d37aa4:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 680
+        'y': 170
+      z: 0
+      embeds: []
+      dependson:
+        - 4b890522-32b2-408c-b269-5e924e9ff3ae
+    a2a3d20a-79f4-46d5-8f14-56bd5eba71ba:
+      source:
+        id: 0d46a91a-e6fa-4831-ba59-f17d6439f369
+      target:
+        id: 4b890522-32b2-408c-b269-5e924e9ff3ae
+      z: 11
+    b2f248f8-d082-41f6-a745-349fb0de9112:
+      source:
+        id: a869f7fc-8ae1-4860-aeb5-2ca1633e8bb5
+      target:
+        id: 4b890522-32b2-408c-b269-5e924e9ff3ae
+      z: 12
+    247b0075-26d5-40e2-b607-c2adafc5879c:
+      source:
+        id: 4cf72e21-0c49-4a1d-95f2-2a44e8d37aa4
+      target:
+        id: 4b890522-32b2-408c-b269-5e924e9ff3ae
+      z: 13
+Resources:
+  Loginpostapi:
+    Type: 'AWS::Lambda::Function'
+    Properties:
+      FunctionName: leadqual-vast-reapi-postloginApi
+      Code:
+        ZipFile: !Join 
+          - |+
+
+          - - 'var http = require("http");'
+            - 'http.createServer(function (request, response) {'
+            - 'response.writeHead(200, {"Content-Type": "text/plain"});'
+            - 'response.end("get Login");'
+            - '}).listen(3001);'
+    Description: Using for USER SSO Login and to get Session ID
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 6c336d5d-e88d-4de3-a953-33ad24b1f3f4
+    DependsOn:
+      - Leadqualadim
+  CreateJob:
+    Type: 'AWS::Lambda::Function'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: cce9a456-5992-4455-9059-34492a95a789
+    DependsOn:
+      - Leadqualadim
+  Partnerlist:
+    Type: 'AWS::Lambda::Function'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: fbb6fac9-697c-419e-b1d7-c9a4b5e4c270
+    DependsOn:
+      - Leadqualadim
+  ProgramNames:
+    Type: 'AWS::Lambda::Function'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 149291aa-c398-406d-a93e-6882001e7b82
+    DependsOn:
+      - Leadqualadim
+  Leadqualadim:
+    Type: 'AWS::S3::Bucket'
+    Properties:
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4b890522-32b2-408c-b269-5e924e9ff3ae
+  Jobinsert:
+    Type: 'AWS::Lambda::Function'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0d46a91a-e6fa-4831-ba59-f17d6439f369
+    DependsOn:
+      - Leadqualadim
+  GetJoblist:
+    Type: 'AWS::Lambda::Function'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 0149d15a-6fa7-49af-98b7-9b6bdc80900e
+  ViewJoblist:
+    Type: 'AWS::Lambda::Function'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: a869f7fc-8ae1-4860-aeb5-2ca1633e8bb5
+    DependsOn:
+      - Leadqualadim
+  GetLeadsList:
+    Type: 'AWS::Lambda::Function'
+    Properties: {}
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: 4cf72e21-0c49-4a1d-95f2-2a44e8d37aa4
+    DependsOn:
+      - Leadqualadim
